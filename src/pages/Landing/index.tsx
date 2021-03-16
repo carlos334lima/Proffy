@@ -1,6 +1,6 @@
 import React from "react";
 
-import './style.css'
+import "./style.css";
 
 import LogoImg from "../../assets/images/logo.svg";
 import LandingImg from "../../assets/images/landing.svg";
@@ -11,8 +11,8 @@ import purpleHeartIcon from "../../assets/images/icons/purple-heart.svg";
 
 function Landing() {
   return (
-    <div className="page-landing">
-      <div className="page-landing-content">
+    <div id="page-landing">
+      <div id="page-landing-content" className="container">
         <div className="logo-container">
           <img src={LogoImg} alt="Logo proffy" />
           <h2>Sua platarforma de estudo online.</h2>
@@ -33,7 +33,7 @@ function Landing() {
         </div>
 
         <span className="total-connections">
-          Total de 200 conexões já realizadas{" "}
+          Total de 200 conexões já realizadas
           <img src={purpleHeartIcon} alt="Coração roxo" />
         </span>
       </div>
